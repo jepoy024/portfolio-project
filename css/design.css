@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    color: rgb(181, 237, 247);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+@font-face{
+    src: url(./fonts/Merriweather-Black.ttf);
+    font-family: merriweather;
+}
+@font-face{
+    src: url(./fonts/Montserrat-ExtraLight.ttf);
+    font-family: montserrat;
+}
+@font-face{
+    src: url(./fonts/Montserrat-LightItalic.ttf);
+    font-family: monserrat-LightItalic;
+}
+hr {
+    border-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+h1 {
+    color: transparent;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    font-size: 7rem;
+    background: linear-gradient(to right,aqua 1%, tomato 100%);
+    -webkit-background-clip: text;
+    font-family: cursive;
+}
+
+h2 {
+    color: teal;
+    font-family: merriweather;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 0;
+    padding-bottom: 10px;
+    
+}
+
+h3 {
+    color: #11999E;
+    font-family: merriweather, sans-serif;
+
+}
+
+p {
+    line-height: 2;
+    font: large;
+    font-family: monserrat, cursive;
+    color: darkslategray ;
+}
+
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+#picture {
+    border-radius: 5in;
+    width: 3in;
+    height: 3in;
+    float: center;
+    border-style: dotted;
+    border-width: thick;
+    border-color: darkslategrey;
+}  
+.middle-container {
+    
+    margin: 100px 0;
+}
+.skills{
+    width: 25%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+}
+.Myskills {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.Hobbies{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.browser {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+.cuttiee{
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.bottom-container {
+    background-color: rgb(181, 237, 247);
+    padding: 50px 0 20px;
+    
+}
+
+.Message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.bottom-link {
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+
+.bottom-link :hover{
+   width: 7%;
+   height: 7%;
+}
+
+.bottom-text {
+    color:  darkslategray;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 0%;
+    position: relative;
+}
+.bottom-cloud {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    right: 1%;
+    bottom: 300px;
+    transform: translateX(5rem);
+    animation: cloud2 20s linear infinite;
+
+}
+
+@keyframes cloud2{
+    0%{margin-right: 10px;}
+    100%{margin-right: 1000px;}
+}
+
+.top-cloud {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    right: 100%;
+    top: 150px;
+    transform: translateX(5rem);
+    animation: move 20s linear infinite;
+    
+}
+@keyframes move{
+    0%{margin-right: 10px;}
+    100%{margin-right: -1000px;}
+}
+.top-cloud1{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 10%;
+    top: 100px;
+    transform: translateX(5rem);
+    animation: cloud1 18s linear infinite;
+
+}
+@keyframes cloud1 {
+    0%{margin-left: 1000px;}
+    100%{margin-right: 1000px;}
+}
+
+.button {
+    background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+    background-color: #11cdd4;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: inline-block ;
+    cursor: pointer;
+    color: white;
+    font-family: monserrat, sans-serif;
+    font-size: 20px;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #274223;
+    margin: 50px;
+    font-family: merriweather, serif;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, teal 5%,aquamarine 100%);
+    background-color: #ffffff;
+    color: transparent;
+}
+#front-name{
+    font-family: sacramento;
+    font-weight: bolder;
+    font-size: 4rem;
+}
